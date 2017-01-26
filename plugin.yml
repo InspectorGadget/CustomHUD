@@ -1,0 +1,8 @@
+name: CustomHUD
+version: 1.0.0
+main: RTG\HUD\Loader
+api: 2.1.0
+author: IG
+commands:
+    hud:
+        description: "Command for CustomHUD!"
