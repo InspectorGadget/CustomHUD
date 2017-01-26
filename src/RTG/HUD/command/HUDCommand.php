@@ -27,7 +27,7 @@ class HUDCommand implements CommandExecutor {
                         
                         case "toggle":
                 
-                            if(isset($this->plugin->enable[\strtolower($sender->getName())])) {
+                            if(isset($this->plugin->enable[strtolower($sender->getName())])) {
                                 unset($this->plugin->enable[strtolower($sender->getName())]);
                                 $sender->sendMessage("You have turned off CustomHUD");
                             }
